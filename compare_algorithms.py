@@ -111,7 +111,14 @@ def compare_algorithms(n_iter, n_gen, n_obj, k=5, save_json=False):
 
     return output
 
-n_iter = 3
+n_iter = 21
 n_gen = 200
-n_obj = 2
+
+n_obj = 3
+out = compare_algorithms(n_iter, n_gen, n_obj, save_json=True)
+
+n_obj = 5
+out = compare_algorithms(n_iter, n_gen, n_obj, save_json=True)
+
+n_obj = 7
 out = compare_algorithms(n_iter, n_gen, n_obj, save_json=True)
