@@ -1,4 +1,3 @@
-from matplotlib.pyplot import tight_layout
 import numpy as np
 import json
 from pymoo.visualization.scatter import Scatter
